@@ -1,0 +1,24 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package com.raven.main;
+
+import java.time.LocalDateTime;
+
+/**
+ *
+ * @author USER
+ */
+public class Dictionnaire extends Ouvrage{
+    protected int nbre_mot;
+    protected int nbre_page;
+
+    public Dictionnaire(int nbre_mot, int nbre_page, int id, String title, LocalDateTime date_publication, double prix, String genre, boolean disponibilite, String langue) {
+        super(id, title, date_publication, prix, genre, disponibilite, langue);
+        this.nbre_mot = nbre_mot;
+        this.nbre_page = nbre_page;
+    }
+    
+    
+}
