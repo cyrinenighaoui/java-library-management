@@ -36,3 +36,59 @@ java-library-management/
 ├── imagesabonnes/            # Ressources images pour les abonnés
 ├── imagesemployes/           # Ressources images pour les employés
 └── README.md                 # Ce fichier
+```
+## 📥 Clonage du projet
+
+
+```bash
+git clone https://github.com/TON-USERNAME/java-library-management.git
+cd java-library-management
+```
+## ▶️ Exécution du projet (NetBeans)
+### Prérequis
+
+- Java JDK 8 ou +
+
+- NetBeans IDE
+
+- MySQL Server
+
+###Étapes
+
+1- Ouvrir NetBeans
+
+2- File → Open Project
+
+3- Sélectionner le dossier java-library-management
+
+4- NetBeans reconnaît automatiquement le projet
+
+5- Cliquer sur Run ▶️
+
+## 🗄️ Configuration de la base de données
+
+
+```bash
+## 🗄️ Base de données
+
+- Créer une base de données MySQL (ex: `library_db`)
+- Importer le script SQL (si disponible)
+- Modifier les paramètres de connexion dans le fichier JDBC :
+
+```java
+String url = "jdbc:mysql://localhost:3306/library_db";
+String user = "root";
+String password = "";
+
+```
+
+
+
+
+
+
+
+
+
+
+
