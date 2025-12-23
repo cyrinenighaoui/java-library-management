@@ -65,22 +65,9 @@ cd java-library-management
 
 5- Cliquer sur Run ▶️
 
-## 🗄️ Configuration de la base de données
 
 
-```bash
-## 🗄️ Base de données
 
-- Créer une base de données MySQL (ex: `library_db`)
-- Importer le script SQL (si disponible)
-- Modifier les paramètres de connexion dans le fichier JDBC :
-
-```java
-String url = "jdbc:mysql://localhost:3306/library_db";
-String user = "root";
-String password = "";
-
-```
 
 
 
