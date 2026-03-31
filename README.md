@@ -4,7 +4,7 @@
 
 ---
 
-## 🚀 Présentation
+##  Présentation
 
 Ce projet a été réalisé dans le cadre d’un module universitaire. Il s’agit d’un **système complet de gestion de bibliothèque**, permettant la gestion des abonnés, des employés, des ouvrages, des emprunts, des réservations, des livraisons et plus encore.
 
@@ -12,7 +12,7 @@ L’application inclut une **interface graphique ** (Swing) et un **système int
 
 ---
 
-## 🛠️ Technologies utilisées
+##  Technologies utilisées
 
 - **Langage :** Java
 - **Interface graphique :** Swing
@@ -23,7 +23,7 @@ L’application inclut une **interface graphique ** (Swing) et un **système int
 
 ---
 
-## 📁 Structure du projet
+##  Structure du projet
 
 ```plaintext
 java-library-management/
@@ -37,14 +37,14 @@ java-library-management/
 ├── imagesemployes/           # Ressources images pour les employés
 └── README.md                 # Ce fichier
 ```
-## 📥 Clonage du projet
+##  Clonage du projet
 
 
 ```bash
 git clone https://github.com/cyrinenighaoui/java-library-management.git
 cd java-library-management
 ```
-## ▶️ Exécution du projet (NetBeans)
+##  Exécution du projet (NetBeans)
 ### Prérequis
 
 - Java JDK 8 ou +
@@ -53,7 +53,7 @@ cd java-library-management
 
 - MySQL Server
 
-###Étapes
+### Étapes
 
 1- Ouvrir NetBeans
 
@@ -63,7 +63,7 @@ cd java-library-management
 
 4- NetBeans reconnaît automatiquement le projet
 
-5- Cliquer sur Run ▶️
+5- Cliquer sur Run 
 
 
 
